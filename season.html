@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season Switch</title>
+    <link rel="stylesheet" href="season.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-xs-img.png" class="season-image d-inline d-md-none" id="seasonsmallImage" />
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-md-img.png" class="season-image d-none d-md-none" id="seasonmediumImage" />
+        <div class="text-center mt-4">
+            <button class="button spring-button" id="button" onclick="changeseasonTospring()">Spring</button>
+            <button class="button  summer-button" id="button" onclick="changeseasonTosummer()">Summer</button>
+            <button class="button  autumn-button" id="button" onclick="changeseasonToautumn()">Autumn</button>
+            <button class="button  winter-button" id="button" onclick="changeseasonTowinter()">Winter</button>
+        </div>
+    </div>
+    <script src="season.js"></script>
+</body>
+</html>
